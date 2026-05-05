@@ -56,6 +56,15 @@ a:active {
   transform: translateY(1px) scale(0.99);
 }
 
+button:focus-visible,
+a:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: 3px;
+}
+
 input,
 select,
 textarea {
@@ -92,6 +101,11 @@ img {
   box-shadow: 0 18px 44px rgba(15, 23, 42, 0.12);
 }
 
+.premium-card:focus-within {
+  border-color: rgba(201, 162, 39, 0.55);
+  box-shadow: 0 12px 32px rgba(15, 23, 42, 0.1);
+}
+
 .premium-button {
   position: relative;
   overflow: hidden;
@@ -110,6 +124,10 @@ img {
 
 .premium-button:hover::after {
   transform: translateX(120%);
+}
+
+.premium-button:hover {
+  box-shadow: 0 12px 28px rgba(15, 23, 42, 0.18);
 }
 
 .premium-button > * {
@@ -142,6 +160,25 @@ img {
 .animated-gradient-surface {
   background-size: 180% 180%;
   animation: gradientDrift 12s ease-in-out infinite;
+}
+
+.crisp-motion-surface {
+  position: relative;
+  isolation: isolate;
+}
+
+.crisp-motion-surface::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  opacity: 0;
+  transition: opacity var(--motion-med) var(--motion-ease);
+}
+
+.crisp-motion-surface:hover::after {
+  opacity: 1;
 }
 
 .kinetic-lines {
@@ -374,6 +411,12 @@ input:focus, select:focus, textarea:focus {
   border-color: rgba(201, 162, 39, 0.6) !important;
   box-shadow: 0 0 0 3px rgba(201, 162, 39, 0.1);
   transform: translateY(-1px);
+}
+
+input:hover,
+select:hover,
+textarea:hover {
+  border-color: rgba(201, 162, 39, 0.35);
 }
 
 ::-webkit-scrollbar {

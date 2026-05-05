@@ -89,8 +89,8 @@ function useCmsContent() {
 function motionProps(content: SiteContent, delay = 0) {
   if (!content.design.animationsEnabled) return {}
   return {
-    initial: { opacity: 0, y: 34 },
-    whileInView: { opacity: 1, y: 0 },
+    initial: { opacity: 0, y: 34, scale: 0.985 },
+    whileInView: { opacity: 1, y: 0, scale: 1 },
     viewport: { once: true, margin: '0px 0px -80px 0px' },
     transition: { duration: 0.72, delay, ease: premiumEase },
   }
@@ -136,6 +136,20 @@ function KineticBackdrop({ enabled }: { enabled: boolean }) {
   return (
     <>
       <div className="absolute inset-0 kinetic-lines opacity-10" />
+      <motion.div
+        aria-hidden
+        className="absolute left-0 right-0 top-24 h-px"
+        style={{ background: `linear-gradient(90deg, transparent, rgba(255,255,255,0.22), transparent)` }}
+        animate={{ x: ['-25%', '25%', '-25%'] }}
+        transition={{ duration: 12, repeat: Infinity, ease: 'easeInOut' }}
+      />
+      <motion.div
+        aria-hidden
+        className="absolute bottom-24 left-1/2 h-28 w-px"
+        style={{ background: `linear-gradient(180deg, transparent, rgba(201,162,39,0.35), transparent)` }}
+        animate={{ y: [0, -18, 0] }}
+        transition={{ duration: 8, repeat: Infinity, ease: 'easeInOut' }}
+      />
     </>
   )
 }
@@ -144,7 +158,14 @@ function SectionHeading({ section, dark, content }: { section: CmsSection; dark?
   return (
     <motion.div {...motionProps(content)} className="text-center mb-12 md:mb-16">
       <div className="flex justify-center mb-4">
-        <div className="h-[3px] w-14 rounded-full" style={{ background: content.design.primaryColor }} />
+        <motion.div
+          initial={content.design.animationsEnabled ? { scaleX: 0 } : false}
+          whileInView={{ scaleX: 1 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.5, ease: premiumEase }}
+          className="h-[3px] w-14 rounded-full origin-center"
+          style={{ background: content.design.primaryColor }}
+        />
       </div>
       {section.eyebrow && (
         <p

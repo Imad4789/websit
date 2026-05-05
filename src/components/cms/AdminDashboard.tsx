@@ -92,8 +92,8 @@ const sectionTypes: SectionType[] = [
 
 function adminReveal(delay = 0) {
   return {
-    initial: { opacity: 0, y: 18 },
-    animate: { opacity: 1, y: 0 },
+    initial: { opacity: 0, y: 18, scale: 0.99 },
+    animate: { opacity: 1, y: 0, scale: 1 },
     transition: { duration: 0.42, delay, ease: adminEase },
   }
 }
