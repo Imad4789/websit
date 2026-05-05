@@ -1,0 +1,819 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.6.2
+2 info using node@v24.11.1
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\Z\Documents\Codex\2026-05-04\files-mentioned-by-the-user-source\source\.npmrc
+5 silly config load:file:C:\Users\Z\.npmrc
+6 silly config load:file:C:\Users\Z\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm ci
+8 verbose argv "ci" "--cache" "C:\\Users\\Z\\Documents\\Codex\\2026-05-04\\files-mentioned-by-the-user-source\\source\\.npm-cache" "--prefer-offline" "--no-audit" "--no-fund" "--progress" "false"
+9 verbose logfile logs-max:10 dir:C:\Users\Z\Documents\Codex\2026-05-04\files-mentioned-by-the-user-source\source\.npm-cache\_logs\2026-05-04T20_08_32_748Z-
+10 verbose logfile C:\Users\Z\Documents\Codex\2026-05-04\files-mentioned-by-the-user-source\source\.npm-cache\_logs\2026-05-04T20_08_32_748Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:2348810240 maxSize:587202560 maxEntrySize:293601280
+13 silly idealTree buildDeps
+14 silly fetch manifest @parcel/watcher-android-arm64@2.5.6
+15 silly packumentCache full:https://registry.npmjs.org/@parcel%2fwatcher-android-arm64 cache-miss
+16 http fetch GET https://registry.npmjs.org/npm attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+17 http fetch GET https://registry.npmjs.org/@parcel%2fwatcher-android-arm64 attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+18 http fetch GET https://registry.npmjs.org/@parcel%2fwatcher-android-arm64 attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+19 http fetch GET https://registry.npmjs.org/npm attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+20 http fetch GET https://registry.npmjs.org/@parcel%2fwatcher-android-arm64 attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+21 silly fetch manifest @parcel/watcher-darwin-arm64@2.5.6
+22 silly packumentCache full:https://registry.npmjs.org/@parcel%2fwatcher-darwin-arm64 cache-miss
+23 http fetch GET https://registry.npmjs.org/npm attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+24 http fetch GET https://registry.npmjs.org/@parcel%2fwatcher-darwin-arm64 attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+25 http fetch GET https://registry.npmjs.org/@parcel%2fwatcher-darwin-arm64 attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+26 http fetch GET https://registry.npmjs.org/@parcel%2fwatcher-darwin-arm64 attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+27 silly fetch manifest @parcel/watcher-darwin-x64@2.5.6
+28 silly packumentCache full:https://registry.npmjs.org/@parcel%2fwatcher-darwin-x64 cache-miss
+29 http fetch GET https://registry.npmjs.org/@parcel%2fwatcher-darwin-x64 attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+30 http fetch GET https://registry.npmjs.org/@parcel%2fwatcher-darwin-x64 attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+31 http fetch GET https://registry.npmjs.org/@parcel%2fwatcher-darwin-x64 attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+32 silly fetch manifest @parcel/watcher-freebsd-x64@2.5.6
+33 silly packumentCache full:https://registry.npmjs.org/@parcel%2fwatcher-freebsd-x64 cache-miss
+34 http fetch GET https://registry.npmjs.org/@parcel%2fwatcher-freebsd-x64 attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+35 http fetch GET https://registry.npmjs.org/@parcel%2fwatcher-freebsd-x64 attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+36 http fetch GET https://registry.npmjs.org/@parcel%2fwatcher-freebsd-x64 attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+37 silly fetch manifest @parcel/watcher-linux-arm-glibc@2.5.6
+38 silly packumentCache full:https://registry.npmjs.org/@parcel%2fwatcher-linux-arm-glibc cache-miss
+39 http fetch GET https://registry.npmjs.org/@parcel%2fwatcher-linux-arm-glibc attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+40 http fetch GET https://registry.npmjs.org/@parcel%2fwatcher-linux-arm-glibc attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+41 http fetch GET https://registry.npmjs.org/@parcel%2fwatcher-linux-arm-glibc attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+42 silly fetch manifest @parcel/watcher-linux-arm-musl@2.5.6
+43 silly packumentCache full:https://registry.npmjs.org/@parcel%2fwatcher-linux-arm-musl cache-miss
+44 http fetch GET https://registry.npmjs.org/@parcel%2fwatcher-linux-arm-musl attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+45 http fetch GET https://registry.npmjs.org/@parcel%2fwatcher-linux-arm-musl attempt 2 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+46 http fetch GET https://registry.npmjs.org/@parcel%2fwatcher-linux-arm-musl attempt 3 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+47 silly fetch manifest @parcel/watcher-linux-arm64-glibc@2.5.6
+48 silly packumentCache full:https://registry.npmjs.org/@parcel%2fwatcher-linux-arm64-glibc cache-miss
+49 http cache https://registry.npmjs.org/@parcel%2fwatcher-linux-arm64-glibc 37ms (cache hit)
+50 silly packumentCache full:https://registry.npmjs.org/@parcel%2fwatcher-linux-arm64-glibc set size:27327 disposed:false
+51 silly fetch manifest @parcel/watcher-linux-arm64-musl@2.5.6
+52 silly packumentCache full:https://registry.npmjs.org/@parcel%2fwatcher-linux-arm64-musl cache-miss
+53 http cache https://registry.npmjs.org/@parcel%2fwatcher-linux-arm64-musl 12ms (cache hit)
+54 silly packumentCache full:https://registry.npmjs.org/@parcel%2fwatcher-linux-arm64-musl set size:27225 disposed:false
+55 silly fetch manifest @parcel/watcher-linux-x64-musl@2.5.6
+56 silly packumentCache full:https://registry.npmjs.org/@parcel%2fwatcher-linux-x64-musl cache-miss
+57 http cache https://registry.npmjs.org/@parcel%2fwatcher-linux-x64-musl 9ms (cache hit)
+58 silly packumentCache full:https://registry.npmjs.org/@parcel%2fwatcher-linux-x64-musl set size:27028 disposed:false
+59 silly fetch manifest @parcel/watcher-win32-arm64@2.5.6
+60 silly packumentCache full:https://registry.npmjs.org/@parcel%2fwatcher-win32-arm64 cache-miss
+61 http cache https://registry.npmjs.org/@parcel%2fwatcher-win32-arm64 10ms (cache hit)
+62 silly packumentCache full:https://registry.npmjs.org/@parcel%2fwatcher-win32-arm64 set size:24926 disposed:false
+63 silly fetch manifest @parcel/watcher-win32-ia32@2.5.6
+64 silly packumentCache full:https://registry.npmjs.org/@parcel%2fwatcher-win32-ia32 cache-miss
+65 http cache https://registry.npmjs.org/@parcel%2fwatcher-win32-ia32 10ms (cache hit)
+66 silly packumentCache full:https://registry.npmjs.org/@parcel%2fwatcher-win32-ia32 set size:20007 disposed:false
+67 silly fetch manifest @parcel/watcher-win32-x64@2.5.6
+68 silly packumentCache full:https://registry.npmjs.org/@parcel%2fwatcher-win32-x64 cache-miss
+69 http cache https://registry.npmjs.org/@parcel%2fwatcher-win32-x64 8ms (cache hit)
+70 silly packumentCache full:https://registry.npmjs.org/@parcel%2fwatcher-win32-x64 set size:26356 disposed:false
+71 silly placeDep node_modules/@parcel/watcher @parcel/watcher-android-arm64@ OK for: @parcel/watcher@2.5.6 want: 2.5.6
+72 silly placeDep node_modules/@parcel/watcher @parcel/watcher-darwin-arm64@ OK for: @parcel/watcher@2.5.6 want: 2.5.6
+73 silly placeDep node_modules/@parcel/watcher @parcel/watcher-darwin-x64@ OK for: @parcel/watcher@2.5.6 want: 2.5.6
+74 silly placeDep node_modules/@parcel/watcher @parcel/watcher-freebsd-x64@ OK for: @parcel/watcher@2.5.6 want: 2.5.6
+75 silly placeDep node_modules/@parcel/watcher @parcel/watcher-linux-arm-glibc@ OK for: @parcel/watcher@2.5.6 want: 2.5.6
+76 silly placeDep node_modules/@parcel/watcher @parcel/watcher-linux-arm-musl@ OK for: @parcel/watcher@2.5.6 want: 2.5.6
+77 silly placeDep ROOT @parcel/watcher-linux-arm64-glibc@2.5.6 OK for: @parcel/watcher@2.5.6 want: 2.5.6
+78 silly placeDep ROOT @parcel/watcher-linux-arm64-musl@2.5.6 OK for: @parcel/watcher@2.5.6 want: 2.5.6
+79 silly placeDep ROOT @parcel/watcher-linux-x64-musl@2.5.6 OK for: @parcel/watcher@2.5.6 want: 2.5.6
+80 silly placeDep ROOT @parcel/watcher-win32-arm64@2.5.6 OK for: @parcel/watcher@2.5.6 want: 2.5.6
+81 silly placeDep ROOT @parcel/watcher-win32-ia32@2.5.6 OK for: @parcel/watcher@2.5.6 want: 2.5.6
+82 silly placeDep ROOT @parcel/watcher-win32-x64@2.5.6 OK for: @parcel/watcher@2.5.6 want: 2.5.6
+83 silly fetch manifest @tailwindcss/oxide-android-arm64@4.2.4
+84 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-android-arm64 cache-miss
+85 http cache https://registry.npmjs.org/@tailwindcss%2foxide-android-arm64 17ms (cache hit)
+86 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-android-arm64 set size:1891863 disposed:false
+87 silly fetch manifest @tailwindcss/oxide-darwin-arm64@4.2.4
+88 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-darwin-arm64 cache-miss
+89 http cache https://registry.npmjs.org/@tailwindcss%2foxide-darwin-arm64 32ms (cache hit)
+90 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-darwin-arm64 set size:2752064 disposed:false
+91 silly fetch manifest @tailwindcss/oxide-darwin-x64@4.2.4
+92 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-darwin-x64 cache-miss
+93 http cache https://registry.npmjs.org/@tailwindcss%2foxide-darwin-x64 45ms (cache hit)
+94 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-darwin-x64 set size:2718287 disposed:false
+95 silly fetch manifest @tailwindcss/oxide-freebsd-x64@4.2.4
+96 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-freebsd-x64 cache-miss
+97 http cache https://registry.npmjs.org/@tailwindcss%2foxide-freebsd-x64 22ms (cache hit)
+98 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-freebsd-x64 set size:2732038 disposed:false
+99 silly fetch manifest @tailwindcss/oxide-linux-arm-gnueabihf@4.2.4
+100 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-linux-arm-gnueabihf cache-miss
+101 http cache https://registry.npmjs.org/@tailwindcss%2foxide-linux-arm-gnueabihf 14ms (cache hit)
+102 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-linux-arm-gnueabihf set size:2823048 disposed:false
+103 silly fetch manifest @tailwindcss/oxide-linux-arm64-gnu@4.2.4
+104 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-linux-arm64-gnu cache-miss
+105 http cache https://registry.npmjs.org/@tailwindcss%2foxide-linux-arm64-gnu 36ms (cache hit)
+106 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-linux-arm64-gnu set size:2799166 disposed:false
+107 silly fetch manifest @tailwindcss/oxide-linux-arm64-musl@4.2.4
+108 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-linux-arm64-musl cache-miss
+109 http cache https://registry.npmjs.org/@tailwindcss%2foxide-linux-arm64-musl 13ms (cache hit)
+110 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-linux-arm64-musl set size:2809672 disposed:false
+111 silly fetch manifest @tailwindcss/oxide-linux-x64-musl@4.2.4
+112 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-linux-x64-musl cache-miss
+113 http cache https://registry.npmjs.org/@tailwindcss%2foxide-linux-x64-musl 47ms (cache hit)
+114 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-linux-x64-musl set size:2782544 disposed:false
+115 silly fetch manifest @tailwindcss/oxide-wasm32-wasi@4.2.4
+116 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-wasm32-wasi cache-miss
+117 http cache https://registry.npmjs.org/@tailwindcss%2foxide-wasm32-wasi 14ms (cache hit)
+118 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-wasm32-wasi set size:1293093 disposed:false
+119 silly fetch manifest @tailwindcss/oxide-win32-arm64-msvc@4.2.4
+120 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-win32-arm64-msvc cache-miss
+121 http cache https://registry.npmjs.org/@tailwindcss%2foxide-win32-arm64-msvc 24ms (cache hit)
+122 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-win32-arm64-msvc set size:1866054 disposed:false
+123 silly fetch manifest @tailwindcss/oxide-win32-x64-msvc@4.2.4
+124 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-win32-x64-msvc cache-miss
+125 http cache https://registry.npmjs.org/@tailwindcss%2foxide-win32-x64-msvc 36ms (cache hit)
+126 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-win32-x64-msvc set size:2756797 disposed:false
+127 silly placeDep ROOT @tailwindcss/oxide-android-arm64@4.2.4 OK for: @tailwindcss/oxide@4.2.4 want: 4.2.4
+128 silly placeDep ROOT @tailwindcss/oxide-darwin-arm64@4.2.4 OK for: @tailwindcss/oxide@4.2.4 want: 4.2.4
+129 silly placeDep ROOT @tailwindcss/oxide-darwin-x64@4.2.4 OK for: @tailwindcss/oxide@4.2.4 want: 4.2.4
+130 silly placeDep ROOT @tailwindcss/oxide-freebsd-x64@4.2.4 OK for: @tailwindcss/oxide@4.2.4 want: 4.2.4
+131 silly placeDep ROOT @tailwindcss/oxide-linux-arm-gnueabihf@4.2.4 OK for: @tailwindcss/oxide@4.2.4 want: 4.2.4
+132 silly placeDep ROOT @tailwindcss/oxide-linux-arm64-gnu@4.2.4 OK for: @tailwindcss/oxide@4.2.4 want: 4.2.4
+133 silly placeDep ROOT @tailwindcss/oxide-linux-arm64-musl@4.2.4 OK for: @tailwindcss/oxide@4.2.4 want: 4.2.4
+134 silly placeDep ROOT @tailwindcss/oxide-linux-x64-musl@4.2.4 OK for: @tailwindcss/oxide@4.2.4 want: 4.2.4
+135 silly placeDep ROOT @tailwindcss/oxide-wasm32-wasi@4.2.4 OK for: @tailwindcss/oxide@4.2.4 want: 4.2.4
+136 silly placeDep ROOT @tailwindcss/oxide-win32-arm64-msvc@4.2.4 OK for: @tailwindcss/oxide@4.2.4 want: 4.2.4
+137 silly placeDep ROOT @tailwindcss/oxide-win32-x64-msvc@4.2.4 OK for: @tailwindcss/oxide@4.2.4 want: 4.2.4
+138 silly fetch manifest @esbuild/aix-ppc64@0.27.3
+139 silly packumentCache full:https://registry.npmjs.org/@esbuild%2faix-ppc64 cache-miss
+140 http cache https://registry.npmjs.org/@esbuild%2faix-ppc64 7ms (cache hit)
+141 silly packumentCache full:https://registry.npmjs.org/@esbuild%2faix-ppc64 set size:64314 disposed:false
+142 silly fetch manifest @esbuild/android-arm@0.27.3
+143 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fandroid-arm cache-miss
+144 http cache https://registry.npmjs.org/@esbuild%2fandroid-arm 7ms (cache hit)
+145 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fandroid-arm set size:221749 disposed:false
+146 silly fetch manifest @esbuild/android-arm64@0.27.3
+147 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fandroid-arm64 cache-miss
+148 http cache https://registry.npmjs.org/@esbuild%2fandroid-arm64 7ms (cache hit)
+149 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fandroid-arm64 set size:200684 disposed:false
+150 silly fetch manifest @esbuild/android-x64@0.27.3
+151 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fandroid-x64 cache-miss
+152 http cache https://registry.npmjs.org/@esbuild%2fandroid-x64 7ms (cache hit)
+153 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fandroid-x64 set size:195551 disposed:false
+154 silly fetch manifest @esbuild/darwin-arm64@0.27.3
+155 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fdarwin-arm64 cache-miss
+156 http cache https://registry.npmjs.org/@esbuild%2fdarwin-arm64 10ms (cache hit)
+157 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fdarwin-arm64 set size:197958 disposed:false
+158 silly fetch manifest @esbuild/darwin-x64@0.27.3
+159 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fdarwin-x64 cache-miss
+160 http cache https://registry.npmjs.org/@esbuild%2fdarwin-x64 17ms (cache hit)
+161 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fdarwin-x64 set size:196195 disposed:false
+162 silly fetch manifest @esbuild/freebsd-arm64@0.27.3
+163 silly packumentCache full:https://registry.npmjs.org/@esbuild%2ffreebsd-arm64 cache-miss
+164 http cache https://registry.npmjs.org/@esbuild%2ffreebsd-arm64 15ms (cache hit)
+165 silly packumentCache full:https://registry.npmjs.org/@esbuild%2ffreebsd-arm64 set size:198853 disposed:false
+166 silly fetch manifest @esbuild/freebsd-x64@0.27.3
+167 silly packumentCache full:https://registry.npmjs.org/@esbuild%2ffreebsd-x64 cache-miss
+168 http cache https://registry.npmjs.org/@esbuild%2ffreebsd-x64 30ms (cache hit)
+169 silly packumentCache full:https://registry.npmjs.org/@esbuild%2ffreebsd-x64 set size:197070 disposed:false
+170 silly fetch manifest @esbuild/linux-arm@0.27.3
+171 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-arm cache-miss
+172 http cache https://registry.npmjs.org/@esbuild%2flinux-arm 9ms (cache hit)
+173 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-arm set size:195140 disposed:false
+174 silly fetch manifest @esbuild/linux-arm64@0.27.3
+175 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-arm64 cache-miss
+176 http cache https://registry.npmjs.org/@esbuild%2flinux-arm64 9ms (cache hit)
+177 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-arm64 set size:197274 disposed:false
+178 silly fetch manifest @esbuild/linux-ia32@0.27.3
+179 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-ia32 cache-miss
+180 http cache https://registry.npmjs.org/@esbuild%2flinux-ia32 7ms (cache hit)
+181 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-ia32 set size:196150 disposed:false
+182 silly fetch manifest @esbuild/linux-loong64@0.27.3
+183 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-loong64 cache-miss
+184 http cache https://registry.npmjs.org/@esbuild%2flinux-loong64 11ms (cache hit)
+185 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-loong64 set size:252211 disposed:false
+186 silly fetch manifest @esbuild/linux-mips64el@0.27.3
+187 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-mips64el cache-miss
+188 http cache https://registry.npmjs.org/@esbuild%2flinux-mips64el 11ms (cache hit)
+189 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-mips64el set size:201062 disposed:false
+190 silly fetch manifest @esbuild/linux-ppc64@0.27.3
+191 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-ppc64 cache-miss
+192 http cache https://registry.npmjs.org/@esbuild%2flinux-ppc64 13ms (cache hit)
+193 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-ppc64 set size:199310 disposed:false
+194 silly fetch manifest @esbuild/linux-riscv64@0.27.3
+195 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-riscv64 cache-miss
+196 http cache https://registry.npmjs.org/@esbuild%2flinux-riscv64 10ms (cache hit)
+197 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-riscv64 set size:198981 disposed:false
+198 silly fetch manifest @esbuild/linux-s390x@0.27.3
+199 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-s390x cache-miss
+200 http cache https://registry.npmjs.org/@esbuild%2flinux-s390x 10ms (cache hit)
+201 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-s390x set size:198784 disposed:false
+202 silly fetch manifest @esbuild/netbsd-arm64@0.27.3
+203 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fnetbsd-arm64 cache-miss
+204 http cache https://registry.npmjs.org/@esbuild%2fnetbsd-arm64 8ms (cache hit)
+205 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fnetbsd-arm64 set size:40794 disposed:false
+206 silly fetch manifest @esbuild/netbsd-x64@0.27.3
+207 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fnetbsd-x64 cache-miss
+208 http cache https://registry.npmjs.org/@esbuild%2fnetbsd-x64 8ms (cache hit)
+209 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fnetbsd-x64 set size:193883 disposed:false
+210 silly fetch manifest @esbuild/openbsd-arm64@0.27.3
+211 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fopenbsd-arm64 cache-miss
+212 http cache https://registry.npmjs.org/@esbuild%2fopenbsd-arm64 17ms (cache hit)
+213 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fopenbsd-arm64 set size:46111 disposed:false
+214 silly fetch manifest @esbuild/openbsd-x64@0.27.3
+215 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fopenbsd-x64 cache-miss
+216 http cache https://registry.npmjs.org/@esbuild%2fopenbsd-x64 10ms (cache hit)
+217 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fopenbsd-x64 set size:197080 disposed:false
+218 silly fetch manifest @esbuild/openharmony-arm64@0.27.3
+219 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fopenharmony-arm64 cache-miss
+220 http cache https://registry.npmjs.org/@esbuild%2fopenharmony-arm64 7ms (cache hit)
+221 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fopenharmony-arm64 set size:29494 disposed:false
+222 silly fetch manifest @esbuild/sunos-x64@0.27.3
+223 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fsunos-x64 cache-miss
+224 http cache https://registry.npmjs.org/@esbuild%2fsunos-x64 11ms (cache hit)
+225 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fsunos-x64 set size:195721 disposed:false
+226 silly fetch manifest @esbuild/win32-arm64@0.27.3
+227 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fwin32-arm64 cache-miss
+228 http cache https://registry.npmjs.org/@esbuild%2fwin32-arm64 9ms (cache hit)
+229 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fwin32-arm64 set size:197504 disposed:false
+230 silly fetch manifest @esbuild/win32-ia32@0.27.3
+231 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fwin32-ia32 cache-miss
+232 http cache https://registry.npmjs.org/@esbuild%2fwin32-ia32 10ms (cache hit)
+233 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fwin32-ia32 set size:196374 disposed:false
+234 silly fetch manifest @esbuild/win32-x64@0.27.3
+235 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fwin32-x64 cache-miss
+236 http cache https://registry.npmjs.org/@esbuild%2fwin32-x64 11ms (cache hit)
+237 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fwin32-x64 set size:194073 disposed:false
+238 silly placeDep ROOT @esbuild/aix-ppc64@0.27.3 OK for: esbuild@0.27.3 want: 0.27.3
+239 silly placeDep ROOT @esbuild/android-arm@0.27.3 OK for: esbuild@0.27.3 want: 0.27.3
+240 silly placeDep ROOT @esbuild/android-arm64@0.27.3 OK for: esbuild@0.27.3 want: 0.27.3
+241 silly placeDep ROOT @esbuild/android-x64@0.27.3 OK for: esbuild@0.27.3 want: 0.27.3
+242 silly placeDep ROOT @esbuild/darwin-arm64@0.27.3 OK for: esbuild@0.27.3 want: 0.27.3
+243 silly placeDep ROOT @esbuild/darwin-x64@0.27.3 OK for: esbuild@0.27.3 want: 0.27.3
+244 silly placeDep ROOT @esbuild/freebsd-arm64@0.27.3 OK for: esbuild@0.27.3 want: 0.27.3
+245 silly placeDep ROOT @esbuild/freebsd-x64@0.27.3 OK for: esbuild@0.27.3 want: 0.27.3
+246 silly placeDep ROOT @esbuild/linux-arm@0.27.3 OK for: esbuild@0.27.3 want: 0.27.3
+247 silly placeDep ROOT @esbuild/linux-arm64@0.27.3 OK for: esbuild@0.27.3 want: 0.27.3
+248 silly placeDep ROOT @esbuild/linux-ia32@0.27.3 OK for: esbuild@0.27.3 want: 0.27.3
+249 silly placeDep ROOT @esbuild/linux-loong64@0.27.3 OK for: esbuild@0.27.3 want: 0.27.3
+250 silly placeDep ROOT @esbuild/linux-mips64el@0.27.3 OK for: esbuild@0.27.3 want: 0.27.3
+251 silly placeDep ROOT @esbuild/linux-ppc64@0.27.3 OK for: esbuild@0.27.3 want: 0.27.3
+252 silly placeDep ROOT @esbuild/linux-riscv64@0.27.3 OK for: esbuild@0.27.3 want: 0.27.3
+253 silly placeDep ROOT @esbuild/linux-s390x@0.27.3 OK for: esbuild@0.27.3 want: 0.27.3
+254 silly placeDep ROOT @esbuild/netbsd-arm64@0.27.3 OK for: esbuild@0.27.3 want: 0.27.3
+255 silly placeDep ROOT @esbuild/netbsd-x64@0.27.3 OK for: esbuild@0.27.3 want: 0.27.3
+256 silly placeDep ROOT @esbuild/openbsd-arm64@0.27.3 OK for: esbuild@0.27.3 want: 0.27.3
+257 silly placeDep ROOT @esbuild/openbsd-x64@0.27.3 OK for: esbuild@0.27.3 want: 0.27.3
+258 silly placeDep ROOT @esbuild/openharmony-arm64@0.27.3 OK for: esbuild@0.27.3 want: 0.27.3
+259 silly placeDep ROOT @esbuild/sunos-x64@0.27.3 OK for: esbuild@0.27.3 want: 0.27.3
+260 silly placeDep ROOT @esbuild/win32-arm64@0.27.3 OK for: esbuild@0.27.3 want: 0.27.3
+261 silly placeDep ROOT @esbuild/win32-ia32@0.27.3 OK for: esbuild@0.27.3 want: 0.27.3
+262 silly placeDep ROOT @esbuild/win32-x64@0.27.3 OK for: esbuild@0.27.3 want: 0.27.3
+263 silly fetch manifest lightningcss-android-arm64@1.32.0
+264 silly packumentCache full:https://registry.npmjs.org/lightningcss-android-arm64 cache-miss
+265 http cache https://registry.npmjs.org/lightningcss-android-arm64 13ms (cache hit)
+266 silly packumentCache full:https://registry.npmjs.org/lightningcss-android-arm64 set size:7671 disposed:false
+267 silly fetch manifest lightningcss-darwin-arm64@1.32.0
+268 silly packumentCache full:https://registry.npmjs.org/lightningcss-darwin-arm64 cache-miss
+269 http cache https://registry.npmjs.org/lightningcss-darwin-arm64 15ms (cache hit)
+270 silly packumentCache full:https://registry.npmjs.org/lightningcss-darwin-arm64 set size:79276 disposed:false
+271 silly fetch manifest lightningcss-darwin-x64@1.32.0
+272 silly packumentCache full:https://registry.npmjs.org/lightningcss-darwin-x64 cache-miss
+273 http cache https://registry.npmjs.org/lightningcss-darwin-x64 11ms (cache hit)
+274 silly packumentCache full:https://registry.npmjs.org/lightningcss-darwin-x64 set size:78694 disposed:false
+275 silly fetch manifest lightningcss-freebsd-x64@1.32.0
+276 silly packumentCache full:https://registry.npmjs.org/lightningcss-freebsd-x64 cache-miss
+277 http cache https://registry.npmjs.org/lightningcss-freebsd-x64 7ms (cache hit)
+278 silly packumentCache full:https://registry.npmjs.org/lightningcss-freebsd-x64 set size:42877 disposed:false
+279 silly fetch manifest lightningcss-linux-arm-gnueabihf@1.32.0
+280 silly packumentCache full:https://registry.npmjs.org/lightningcss-linux-arm-gnueabihf cache-miss
+281 http cache https://registry.npmjs.org/lightningcss-linux-arm-gnueabihf 8ms (cache hit)
+282 silly packumentCache full:https://registry.npmjs.org/lightningcss-linux-arm-gnueabihf set size:80903 disposed:false
+283 silly fetch manifest lightningcss-linux-arm64-gnu@1.32.0
+284 silly packumentCache full:https://registry.npmjs.org/lightningcss-linux-arm64-gnu cache-miss
+285 http cache https://registry.npmjs.org/lightningcss-linux-arm64-gnu 6ms (cache hit)
+286 silly packumentCache full:https://registry.npmjs.org/lightningcss-linux-arm64-gnu set size:80669 disposed:false
+287 silly fetch manifest lightningcss-linux-arm64-musl@1.32.0
+288 silly packumentCache full:https://registry.npmjs.org/lightningcss-linux-arm64-musl cache-miss
+289 http cache https://registry.npmjs.org/lightningcss-linux-arm64-musl 8ms (cache hit)
+290 silly packumentCache full:https://registry.npmjs.org/lightningcss-linux-arm64-musl set size:80887 disposed:false
+291 silly fetch manifest lightningcss-linux-x64-musl@1.32.0
+292 silly packumentCache full:https://registry.npmjs.org/lightningcss-linux-x64-musl cache-miss
+293 http cache https://registry.npmjs.org/lightningcss-linux-x64-musl 6ms (cache hit)
+294 silly packumentCache full:https://registry.npmjs.org/lightningcss-linux-x64-musl set size:80313 disposed:false
+295 silly fetch manifest lightningcss-win32-arm64-msvc@1.32.0
+296 silly packumentCache full:https://registry.npmjs.org/lightningcss-win32-arm64-msvc cache-miss
+297 http cache https://registry.npmjs.org/lightningcss-win32-arm64-msvc 9ms (cache hit)
+298 silly packumentCache full:https://registry.npmjs.org/lightningcss-win32-arm64-msvc set size:26629 disposed:false
+299 silly fetch manifest lightningcss-win32-x64-msvc@1.32.0
+300 silly packumentCache full:https://registry.npmjs.org/lightningcss-win32-x64-msvc cache-miss
+301 http cache https://registry.npmjs.org/lightningcss-win32-x64-msvc 10ms (cache hit)
+302 silly packumentCache full:https://registry.npmjs.org/lightningcss-win32-x64-msvc set size:79645 disposed:false
+303 silly placeDep ROOT lightningcss-android-arm64@1.32.0 OK for: lightningcss@1.32.0 want: 1.32.0
+304 silly placeDep ROOT lightningcss-darwin-arm64@1.32.0 OK for: lightningcss@1.32.0 want: 1.32.0
+305 silly placeDep ROOT lightningcss-darwin-x64@1.32.0 OK for: lightningcss@1.32.0 want: 1.32.0
+306 silly placeDep ROOT lightningcss-freebsd-x64@1.32.0 OK for: lightningcss@1.32.0 want: 1.32.0
+307 silly placeDep ROOT lightningcss-linux-arm-gnueabihf@1.32.0 OK for: lightningcss@1.32.0 want: 1.32.0
+308 silly placeDep ROOT lightningcss-linux-arm64-gnu@1.32.0 OK for: lightningcss@1.32.0 want: 1.32.0
+309 silly placeDep ROOT lightningcss-linux-arm64-musl@1.32.0 OK for: lightningcss@1.32.0 want: 1.32.0
+310 silly placeDep ROOT lightningcss-linux-x64-musl@1.32.0 OK for: lightningcss@1.32.0 want: 1.32.0
+311 silly placeDep ROOT lightningcss-win32-arm64-msvc@1.32.0 OK for: lightningcss@1.32.0 want: 1.32.0
+312 silly placeDep ROOT lightningcss-win32-x64-msvc@1.32.0 OK for: lightningcss@1.32.0 want: 1.32.0
+313 silly fetch manifest @rollup/rollup-android-arm-eabi@4.60.2
+314 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-android-arm-eabi cache-miss
+315 http cache https://registry.npmjs.org/@rollup%2frollup-android-arm-eabi 9ms (cache hit)
+316 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-android-arm-eabi set size:340748 disposed:false
+317 silly fetch manifest @rollup/rollup-android-arm64@4.60.2
+318 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-android-arm64 cache-miss
+319 http cache https://registry.npmjs.org/@rollup%2frollup-android-arm64 12ms (cache hit)
+320 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-android-arm64 set size:337364 disposed:false
+321 silly fetch manifest @rollup/rollup-darwin-arm64@4.60.2
+322 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-darwin-arm64 cache-miss
+323 http cache https://registry.npmjs.org/@rollup%2frollup-darwin-arm64 46ms (cache hit)
+324 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-darwin-arm64 set size:335869 disposed:false
+325 silly fetch manifest @rollup/rollup-darwin-x64@4.60.2
+326 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-darwin-x64 cache-miss
+327 http cache https://registry.npmjs.org/@rollup%2frollup-darwin-x64 11ms (cache hit)
+328 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-darwin-x64 set size:331088 disposed:false
+329 silly fetch manifest @rollup/rollup-freebsd-arm64@4.60.2
+330 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-freebsd-arm64 cache-miss
+331 http cache https://registry.npmjs.org/@rollup%2frollup-freebsd-arm64 8ms (cache hit)
+332 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-freebsd-arm64 set size:185570 disposed:false
+333 silly fetch manifest @rollup/rollup-freebsd-x64@4.60.2
+334 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-freebsd-x64 cache-miss
+335 http cache https://registry.npmjs.org/@rollup%2frollup-freebsd-x64 8ms (cache hit)
+336 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-freebsd-x64 set size:183677 disposed:false
+337 silly fetch manifest @rollup/rollup-linux-arm-gnueabihf@4.60.2
+338 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-arm-gnueabihf cache-miss
+339 http cache https://registry.npmjs.org/@rollup%2frollup-linux-arm-gnueabihf 9ms (cache hit)
+340 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-arm-gnueabihf set size:346448 disposed:false
+341 silly fetch manifest @rollup/rollup-linux-arm-musleabihf@4.60.2
+342 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-arm-musleabihf cache-miss
+343 http cache https://registry.npmjs.org/@rollup%2frollup-linux-arm-musleabihf 10ms (cache hit)
+344 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-arm-musleabihf set size:240621 disposed:false
+345 silly fetch manifest @rollup/rollup-linux-arm64-gnu@4.60.2
+346 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-arm64-gnu cache-miss
+347 http cache https://registry.npmjs.org/@rollup%2frollup-linux-arm64-gnu 11ms (cache hit)
+348 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-arm64-gnu set size:342977 disposed:false
+349 silly fetch manifest @rollup/rollup-linux-arm64-musl@4.60.2
+350 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-arm64-musl cache-miss
+351 http cache https://registry.npmjs.org/@rollup%2frollup-linux-arm64-musl 10ms (cache hit)
+352 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-arm64-musl set size:298359 disposed:false
+353 silly fetch manifest @rollup/rollup-linux-loong64-gnu@4.60.2
+354 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-loong64-gnu cache-miss
+355 http cache https://registry.npmjs.org/@rollup%2frollup-linux-loong64-gnu 8ms (cache hit)
+356 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-loong64-gnu set size:67424 disposed:false
+357 silly fetch manifest @rollup/rollup-linux-loong64-musl@4.60.2
+358 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-loong64-musl cache-miss
+359 http cache https://registry.npmjs.org/@rollup%2frollup-linux-loong64-musl 8ms (cache hit)
+360 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-loong64-musl set size:29421 disposed:false
+361 silly fetch manifest @rollup/rollup-linux-ppc64-gnu@4.60.2
+362 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-ppc64-gnu cache-miss
+363 http cache https://registry.npmjs.org/@rollup%2frollup-linux-ppc64-gnu 9ms (cache hit)
+364 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-ppc64-gnu set size:87656 disposed:false
+365 silly fetch manifest @rollup/rollup-linux-ppc64-musl@4.60.2
+366 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-ppc64-musl cache-miss
+367 http cache https://registry.npmjs.org/@rollup%2frollup-linux-ppc64-musl 9ms (cache hit)
+368 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-ppc64-musl set size:29178 disposed:false
+369 silly fetch manifest @rollup/rollup-linux-riscv64-gnu@4.60.2
+370 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-riscv64-gnu cache-miss
+371 http cache https://registry.npmjs.org/@rollup%2frollup-linux-riscv64-gnu 9ms (cache hit)
+372 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-riscv64-gnu set size:269110 disposed:false
+373 silly fetch manifest @rollup/rollup-linux-riscv64-musl@4.60.2
+374 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-riscv64-musl cache-miss
+375 http cache https://registry.npmjs.org/@rollup%2frollup-linux-riscv64-musl 7ms (cache hit)
+376 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-riscv64-musl set size:115087 disposed:false
+377 silly fetch manifest @rollup/rollup-linux-s390x-gnu@4.60.2
+378 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-s390x-gnu cache-miss
+379 http cache https://registry.npmjs.org/@rollup%2frollup-linux-s390x-gnu 8ms (cache hit)
+380 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-s390x-gnu set size:242826 disposed:false
+381 silly fetch manifest @rollup/rollup-linux-x64-musl@4.60.2
+382 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-x64-musl cache-miss
+383 http cache https://registry.npmjs.org/@rollup%2frollup-linux-x64-musl 11ms (cache hit)
+384 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-x64-musl set size:337476 disposed:false
+385 silly fetch manifest @rollup/rollup-openbsd-x64@4.60.2
+386 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-openbsd-x64 cache-miss
+387 http cache https://registry.npmjs.org/@rollup%2frollup-openbsd-x64 8ms (cache hit)
+388 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-openbsd-x64 set size:28421 disposed:false
+389 silly fetch manifest @rollup/rollup-openharmony-arm64@4.60.2
+390 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-openharmony-arm64 cache-miss
+391 http cache https://registry.npmjs.org/@rollup%2frollup-openharmony-arm64 6ms (cache hit)
+392 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-openharmony-arm64 set size:68313 disposed:false
+393 silly fetch manifest @rollup/rollup-win32-arm64-msvc@4.60.2
+394 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-win32-arm64-msvc cache-miss
+395 http cache https://registry.npmjs.org/@rollup%2frollup-win32-arm64-msvc 45ms (cache hit)
+396 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-win32-arm64-msvc set size:340740 disposed:false
+397 silly fetch manifest @rollup/rollup-win32-ia32-msvc@4.60.2
+398 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-win32-ia32-msvc cache-miss
+399 http cache https://registry.npmjs.org/@rollup%2frollup-win32-ia32-msvc 10ms (cache hit)
+400 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-win32-ia32-msvc set size:339264 disposed:false
+401 silly fetch manifest @rollup/rollup-win32-x64-gnu@4.60.2
+402 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-win32-x64-gnu cache-miss
+403 http cache https://registry.npmjs.org/@rollup%2frollup-win32-x64-gnu 10ms (cache hit)
+404 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-win32-x64-gnu set size:59012 disposed:false
+405 silly fetch manifest @rollup/rollup-win32-x64-msvc@4.60.2
+406 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-win32-x64-msvc cache-miss
+407 http cache https://registry.npmjs.org/@rollup%2frollup-win32-x64-msvc 15ms (cache hit)
+408 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-win32-x64-msvc set size:335921 disposed:false
+409 silly fetch manifest fsevents@~2.3.2
+410 silly packumentCache full:https://registry.npmjs.org/fsevents cache-miss
+411 http cache https://registry.npmjs.org/fsevents 10ms (cache hit)
+412 silly packumentCache full:https://registry.npmjs.org/fsevents set size:182472 disposed:false
+413 silly placeDep ROOT @rollup/rollup-android-arm-eabi@4.60.2 OK for: rollup@4.60.2 want: 4.60.2
+414 silly placeDep ROOT @rollup/rollup-android-arm64@4.60.2 OK for: rollup@4.60.2 want: 4.60.2
+415 silly placeDep ROOT @rollup/rollup-darwin-arm64@4.60.2 OK for: rollup@4.60.2 want: 4.60.2
+416 silly placeDep ROOT @rollup/rollup-darwin-x64@4.60.2 OK for: rollup@4.60.2 want: 4.60.2
+417 silly placeDep ROOT @rollup/rollup-freebsd-arm64@4.60.2 OK for: rollup@4.60.2 want: 4.60.2
+418 silly placeDep ROOT @rollup/rollup-freebsd-x64@4.60.2 OK for: rollup@4.60.2 want: 4.60.2
+419 silly placeDep ROOT @rollup/rollup-linux-arm-gnueabihf@4.60.2 OK for: rollup@4.60.2 want: 4.60.2
+420 silly placeDep ROOT @rollup/rollup-linux-arm-musleabihf@4.60.2 OK for: rollup@4.60.2 want: 4.60.2
+421 silly placeDep ROOT @rollup/rollup-linux-arm64-gnu@4.60.2 OK for: rollup@4.60.2 want: 4.60.2
+422 silly placeDep ROOT @rollup/rollup-linux-arm64-musl@4.60.2 OK for: rollup@4.60.2 want: 4.60.2
+423 silly placeDep ROOT @rollup/rollup-linux-loong64-gnu@4.60.2 OK for: rollup@4.60.2 want: 4.60.2
+424 silly placeDep ROOT @rollup/rollup-linux-loong64-musl@4.60.2 OK for: rollup@4.60.2 want: 4.60.2
+425 silly placeDep ROOT @rollup/rollup-linux-ppc64-gnu@4.60.2 OK for: rollup@4.60.2 want: 4.60.2
+426 silly placeDep ROOT @rollup/rollup-linux-ppc64-musl@4.60.2 OK for: rollup@4.60.2 want: 4.60.2
+427 silly placeDep ROOT @rollup/rollup-linux-riscv64-gnu@4.60.2 OK for: rollup@4.60.2 want: 4.60.2
+428 silly placeDep ROOT @rollup/rollup-linux-riscv64-musl@4.60.2 OK for: rollup@4.60.2 want: 4.60.2
+429 silly placeDep ROOT @rollup/rollup-linux-s390x-gnu@4.60.2 OK for: rollup@4.60.2 want: 4.60.2
+430 silly placeDep ROOT @rollup/rollup-linux-x64-musl@4.60.2 OK for: rollup@4.60.2 want: 4.60.2
+431 silly placeDep ROOT @rollup/rollup-openbsd-x64@4.60.2 OK for: rollup@4.60.2 want: 4.60.2
+432 silly placeDep ROOT @rollup/rollup-openharmony-arm64@4.60.2 OK for: rollup@4.60.2 want: 4.60.2
+433 silly placeDep ROOT @rollup/rollup-win32-arm64-msvc@4.60.2 OK for: rollup@4.60.2 want: 4.60.2
+434 silly placeDep ROOT @rollup/rollup-win32-ia32-msvc@4.60.2 OK for: rollup@4.60.2 want: 4.60.2
+435 silly placeDep ROOT @rollup/rollup-win32-x64-gnu@4.60.2 OK for: rollup@4.60.2 want: 4.60.2
+436 silly placeDep ROOT @rollup/rollup-win32-x64-msvc@4.60.2 OK for: rollup@4.60.2 want: 4.60.2
+437 silly placeDep ROOT fsevents@2.3.3 OK for: rollup@4.60.2 want: ~2.3.2
+438 silly fetch manifest @img/sharp-darwin-arm64@0.34.5
+439 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-darwin-arm64 cache-miss
+440 http cache https://registry.npmjs.org/@img%2fsharp-darwin-arm64 9ms (cache hit)
+441 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-darwin-arm64 set size:76460 disposed:false
+442 silly fetch manifest @img/sharp-darwin-x64@0.34.5
+443 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-darwin-x64 cache-miss
+444 http cache https://registry.npmjs.org/@img%2fsharp-darwin-x64 7ms (cache hit)
+445 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-darwin-x64 set size:75437 disposed:false
+446 silly fetch manifest @img/sharp-libvips-darwin-arm64@1.2.4
+447 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-darwin-arm64 cache-miss
+448 http cache https://registry.npmjs.org/@img%2fsharp-libvips-darwin-arm64 10ms (cache hit)
+449 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-darwin-arm64 set size:60863 disposed:false
+450 silly fetch manifest @img/sharp-libvips-darwin-x64@1.2.4
+451 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-darwin-x64 cache-miss
+452 http cache https://registry.npmjs.org/@img%2fsharp-libvips-darwin-x64 8ms (cache hit)
+453 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-darwin-x64 set size:60181 disposed:false
+454 silly fetch manifest @img/sharp-libvips-linux-arm@1.2.4
+455 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-linux-arm cache-miss
+456 http cache https://registry.npmjs.org/@img%2fsharp-libvips-linux-arm 10ms (cache hit)
+457 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-linux-arm set size:67087 disposed:false
+458 silly fetch manifest @img/sharp-libvips-linux-arm64@1.2.4
+459 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-linux-arm64 cache-miss
+460 http cache https://registry.npmjs.org/@img%2fsharp-libvips-linux-arm64 7ms (cache hit)
+461 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-linux-arm64 set size:64016 disposed:false
+462 silly fetch manifest @img/sharp-libvips-linux-ppc64@1.2.4
+463 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-linux-ppc64 cache-miss
+464 http cache https://registry.npmjs.org/@img%2fsharp-libvips-linux-ppc64 8ms (cache hit)
+465 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-linux-ppc64 set size:51223 disposed:false
+466 silly fetch manifest @img/sharp-libvips-linux-riscv64@1.2.4
+467 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-linux-riscv64 cache-miss
+468 http cache https://registry.npmjs.org/@img%2fsharp-libvips-linux-riscv64 7ms (cache hit)
+469 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-linux-riscv64 set size:37238 disposed:false
+470 silly fetch manifest @img/sharp-libvips-linux-s390x@1.2.4
+471 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-linux-s390x cache-miss
+472 http cache https://registry.npmjs.org/@img%2fsharp-libvips-linux-s390x 13ms (cache hit)
+473 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-linux-s390x set size:60203 disposed:false
+474 silly fetch manifest @img/sharp-libvips-linuxmusl-arm64@1.2.4
+475 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-linuxmusl-arm64 cache-miss
+476 http cache https://registry.npmjs.org/@img%2fsharp-libvips-linuxmusl-arm64 13ms (cache hit)
+477 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-linuxmusl-arm64 set size:62945 disposed:false
+478 silly fetch manifest @img/sharp-libvips-linuxmusl-x64@1.2.4
+479 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-linuxmusl-x64 cache-miss
+480 http cache https://registry.npmjs.org/@img%2fsharp-libvips-linuxmusl-x64 12ms (cache hit)
+481 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-linuxmusl-x64 set size:62225 disposed:false
+482 silly fetch manifest @img/sharp-linux-arm@0.34.5
+483 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-linux-arm cache-miss
+484 http cache https://registry.npmjs.org/@img%2fsharp-linux-arm 17ms (cache hit)
+485 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-linux-arm set size:75025 disposed:false
+486 silly fetch manifest @img/sharp-linux-arm64@0.34.5
+487 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-linux-arm64 cache-miss
+488 http cache https://registry.npmjs.org/@img%2fsharp-linux-arm64 10ms (cache hit)
+489 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-linux-arm64 set size:75657 disposed:false
+490 silly fetch manifest @img/sharp-linux-ppc64@0.34.5
+491 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-linux-ppc64 cache-miss
+492 http cache https://registry.npmjs.org/@img%2fsharp-linux-ppc64 9ms (cache hit)
+493 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-linux-ppc64 set size:40341 disposed:false
+494 silly fetch manifest @img/sharp-linux-riscv64@0.34.5
+495 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-linux-riscv64 cache-miss
+496 http cache https://registry.npmjs.org/@img%2fsharp-linux-riscv64 7ms (cache hit)
+497 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-linux-riscv64 set size:17504 disposed:false
+498 silly fetch manifest @img/sharp-linux-s390x@0.34.5
+499 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-linux-s390x cache-miss
+500 http cache https://registry.npmjs.org/@img%2fsharp-linux-s390x 7ms (cache hit)
+501 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-linux-s390x set size:73603 disposed:false
+502 silly fetch manifest @img/sharp-linuxmusl-arm64@0.34.5
+503 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-linuxmusl-arm64 cache-miss
+504 http cache https://registry.npmjs.org/@img%2fsharp-linuxmusl-arm64 7ms (cache hit)
+505 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-linuxmusl-arm64 set size:76866 disposed:false
+506 silly fetch manifest @img/sharp-linuxmusl-x64@0.34.5
+507 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-linuxmusl-x64 cache-miss
+508 http cache https://registry.npmjs.org/@img%2fsharp-linuxmusl-x64 10ms (cache hit)
+509 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-linuxmusl-x64 set size:75867 disposed:false
+510 silly fetch manifest @img/sharp-wasm32@0.34.5
+511 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-wasm32 cache-miss
+512 http cache https://registry.npmjs.org/@img%2fsharp-wasm32 9ms (cache hit)
+513 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-wasm32 set size:69437 disposed:false
+514 silly fetch manifest @img/sharp-win32-arm64@0.34.5
+515 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-win32-arm64 cache-miss
+516 http cache https://registry.npmjs.org/@img%2fsharp-win32-arm64 9ms (cache hit)
+517 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-win32-arm64 set size:32122 disposed:false
+518 silly fetch manifest @img/sharp-win32-ia32@0.34.5
+519 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-win32-ia32 cache-miss
+520 http cache https://registry.npmjs.org/@img%2fsharp-win32-ia32 8ms (cache hit)
+521 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-win32-ia32 set size:73172 disposed:false
+522 silly fetch manifest @img/sharp-win32-x64@0.34.5
+523 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-win32-x64 cache-miss
+524 http cache https://registry.npmjs.org/@img%2fsharp-win32-x64 7ms (cache hit)
+525 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-win32-x64 set size:72477 disposed:false
+526 silly placeDep ROOT @img/sharp-darwin-arm64@0.34.5 OK for: sharp@0.34.5 want: 0.34.5
+527 silly placeDep ROOT @img/sharp-darwin-x64@0.34.5 OK for: sharp@0.34.5 want: 0.34.5
+528 silly placeDep ROOT @img/sharp-libvips-darwin-arm64@1.2.4 OK for: sharp@0.34.5 want: 1.2.4
+529 silly placeDep ROOT @img/sharp-libvips-darwin-x64@1.2.4 OK for: sharp@0.34.5 want: 1.2.4
+530 silly placeDep ROOT @img/sharp-libvips-linux-arm@1.2.4 OK for: sharp@0.34.5 want: 1.2.4
+531 silly placeDep ROOT @img/sharp-libvips-linux-arm64@1.2.4 OK for: sharp@0.34.5 want: 1.2.4
+532 silly placeDep ROOT @img/sharp-libvips-linux-ppc64@1.2.4 OK for: sharp@0.34.5 want: 1.2.4
+533 silly placeDep ROOT @img/sharp-libvips-linux-riscv64@1.2.4 OK for: sharp@0.34.5 want: 1.2.4
+534 silly placeDep ROOT @img/sharp-libvips-linux-s390x@1.2.4 OK for: sharp@0.34.5 want: 1.2.4
+535 silly placeDep ROOT @img/sharp-libvips-linuxmusl-arm64@1.2.4 OK for: sharp@0.34.5 want: 1.2.4
+536 silly placeDep ROOT @img/sharp-libvips-linuxmusl-x64@1.2.4 OK for: sharp@0.34.5 want: 1.2.4
+537 silly placeDep ROOT @img/sharp-linux-arm@0.34.5 OK for: sharp@0.34.5 want: 0.34.5
+538 silly placeDep ROOT @img/sharp-linux-arm64@0.34.5 OK for: sharp@0.34.5 want: 0.34.5
+539 silly placeDep ROOT @img/sharp-linux-ppc64@0.34.5 OK for: sharp@0.34.5 want: 0.34.5
+540 silly placeDep ROOT @img/sharp-linux-riscv64@0.34.5 OK for: sharp@0.34.5 want: 0.34.5
+541 silly placeDep ROOT @img/sharp-linux-s390x@0.34.5 OK for: sharp@0.34.5 want: 0.34.5
+542 silly placeDep ROOT @img/sharp-linuxmusl-arm64@0.34.5 OK for: sharp@0.34.5 want: 0.34.5
+543 silly placeDep ROOT @img/sharp-linuxmusl-x64@0.34.5 OK for: sharp@0.34.5 want: 0.34.5
+544 silly placeDep ROOT @img/sharp-wasm32@0.34.5 OK for: sharp@0.34.5 want: 0.34.5
+545 silly placeDep ROOT @img/sharp-win32-arm64@0.34.5 OK for: sharp@0.34.5 want: 0.34.5
+546 silly placeDep ROOT @img/sharp-win32-ia32@0.34.5 OK for: sharp@0.34.5 want: 0.34.5
+547 silly placeDep ROOT @img/sharp-win32-x64@0.34.5 OK for: sharp@0.34.5 want: 0.34.5
+548 silly fetch manifest @emnapi/runtime@^1.7.0
+549 silly packumentCache full:https://registry.npmjs.org/@emnapi%2fruntime cache-miss
+550 http cache https://registry.npmjs.org/@emnapi%2fruntime 10ms (cache hit)
+551 silly packumentCache full:https://registry.npmjs.org/@emnapi%2fruntime set size:108129 disposed:false
+552 silly placeDep ROOT @emnapi/runtime@1.10.0 OK for: @img/sharp-wasm32@0.34.5 want: ^1.7.0
+553 verbose stack Error: 
+553 verbose stack `npm ci` can only install packages when your package.json and package-lock.json or npm-shrinkwrap.json are in sync. Please update your lock file with `npm install` before continuing.
+553 verbose stack
+553 verbose stack Missing: @parcel/watcher-android-arm64@ from lock file
+553 verbose stack Missing: @parcel/watcher-darwin-arm64@ from lock file
+553 verbose stack Missing: @parcel/watcher-darwin-x64@ from lock file
+553 verbose stack Missing: @parcel/watcher-freebsd-x64@ from lock file
+553 verbose stack Missing: @parcel/watcher-linux-arm-glibc@ from lock file
+553 verbose stack Missing: @parcel/watcher-linux-arm-musl@ from lock file
+553 verbose stack Missing: @parcel/watcher-linux-arm64-glibc@2.5.6 from lock file
+553 verbose stack Missing: @parcel/watcher-linux-arm64-musl@2.5.6 from lock file
+553 verbose stack Missing: @parcel/watcher-linux-x64-musl@2.5.6 from lock file
+553 verbose stack Missing: @parcel/watcher-win32-arm64@2.5.6 from lock file
+553 verbose stack Missing: @parcel/watcher-win32-ia32@2.5.6 from lock file
+553 verbose stack Missing: @parcel/watcher-win32-x64@2.5.6 from lock file
+553 verbose stack Missing: @tailwindcss/oxide-android-arm64@4.2.4 from lock file
+553 verbose stack Missing: @tailwindcss/oxide-darwin-arm64@4.2.4 from lock file
+553 verbose stack Missing: @tailwindcss/oxide-darwin-x64@4.2.4 from lock file
+553 verbose stack Missing: @tailwindcss/oxide-freebsd-x64@4.2.4 from lock file
+553 verbose stack Missing: @tailwindcss/oxide-linux-arm-gnueabihf@4.2.4 from lock file
+553 verbose stack Missing: @tailwindcss/oxide-linux-arm64-gnu@4.2.4 from lock file
+553 verbose stack Missing: @tailwindcss/oxide-linux-arm64-musl@4.2.4 from lock file
+553 verbose stack Missing: @tailwindcss/oxide-linux-x64-musl@4.2.4 from lock file
+553 verbose stack Missing: @tailwindcss/oxide-wasm32-wasi@4.2.4 from lock file
+553 verbose stack Missing: @tailwindcss/oxide-win32-arm64-msvc@4.2.4 from lock file
+553 verbose stack Missing: @tailwindcss/oxide-win32-x64-msvc@4.2.4 from lock file
+553 verbose stack Missing: @esbuild/aix-ppc64@0.27.3 from lock file
+553 verbose stack Missing: @esbuild/android-arm@0.27.3 from lock file
+553 verbose stack Missing: @esbuild/android-arm64@0.27.3 from lock file
+553 verbose stack Missing: @esbuild/android-x64@0.27.3 from lock file
+553 verbose stack Missing: @esbuild/darwin-arm64@0.27.3 from lock file
+553 verbose stack Missing: @esbuild/darwin-x64@0.27.3 from lock file
+553 verbose stack Missing: @esbuild/freebsd-arm64@0.27.3 from lock file
+553 verbose stack Missing: @esbuild/freebsd-x64@0.27.3 from lock file
+553 verbose stack Missing: @esbuild/linux-arm@0.27.3 from lock file
+553 verbose stack Missing: @esbuild/linux-arm64@0.27.3 from lock file
+553 verbose stack Missing: @esbuild/linux-ia32@0.27.3 from lock file
+553 verbose stack Missing: @esbuild/linux-loong64@0.27.3 from lock file
+553 verbose stack Missing: @esbuild/linux-mips64el@0.27.3 from lock file
+553 verbose stack Missing: @esbuild/linux-ppc64@0.27.3 from lock file
+553 verbose stack Missing: @esbuild/linux-riscv64@0.27.3 from lock file
+553 verbose stack Missing: @esbuild/linux-s390x@0.27.3 from lock file
+553 verbose stack Missing: @esbuild/netbsd-arm64@0.27.3 from lock file
+553 verbose stack Missing: @esbuild/netbsd-x64@0.27.3 from lock file
+553 verbose stack Missing: @esbuild/openbsd-arm64@0.27.3 from lock file
+553 verbose stack Missing: @esbuild/openbsd-x64@0.27.3 from lock file
+553 verbose stack Missing: @esbuild/openharmony-arm64@0.27.3 from lock file
+553 verbose stack Missing: @esbuild/sunos-x64@0.27.3 from lock file
+553 verbose stack Missing: @esbuild/win32-arm64@0.27.3 from lock file
+553 verbose stack Missing: @esbuild/win32-ia32@0.27.3 from lock file
+553 verbose stack Missing: @esbuild/win32-x64@0.27.3 from lock file
+553 verbose stack Missing: lightningcss-android-arm64@1.32.0 from lock file
+553 verbose stack Missing: lightningcss-darwin-arm64@1.32.0 from lock file
+553 verbose stack Missing: lightningcss-darwin-x64@1.32.0 from lock file
+553 verbose stack Missing: lightningcss-freebsd-x64@1.32.0 from lock file
+553 verbose stack Missing: lightningcss-linux-arm-gnueabihf@1.32.0 from lock file
+553 verbose stack Missing: lightningcss-linux-arm64-gnu@1.32.0 from lock file
+553 verbose stack Missing: lightningcss-linux-arm64-musl@1.32.0 from lock file
+553 verbose stack Missing: lightningcss-linux-x64-musl@1.32.0 from lock file
+553 verbose stack Missing: lightningcss-win32-arm64-msvc@1.32.0 from lock file
+553 verbose stack Missing: lightningcss-win32-x64-msvc@1.32.0 from lock file
+553 verbose stack Missing: @rollup/rollup-android-arm-eabi@4.60.2 from lock file
+553 verbose stack Missing: @rollup/rollup-android-arm64@4.60.2 from lock file
+553 verbose stack Missing: @rollup/rollup-darwin-arm64@4.60.2 from lock file
+553 verbose stack Missing: @rollup/rollup-darwin-x64@4.60.2 from lock file
+553 verbose stack Missing: @rollup/rollup-freebsd-arm64@4.60.2 from lock file
+553 verbose stack Missing: @rollup/rollup-freebsd-x64@4.60.2 from lock file
+553 verbose stack Missing: @rollup/rollup-linux-arm-gnueabihf@4.60.2 from lock file
+553 verbose stack Missing: @rollup/rollup-linux-arm-musleabihf@4.60.2 from lock file
+553 verbose stack Missing: @rollup/rollup-linux-arm64-gnu@4.60.2 from lock file
+553 verbose stack Missing: @rollup/rollup-linux-arm64-musl@4.60.2 from lock file
+553 verbose stack Missing: @rollup/rollup-linux-loong64-gnu@4.60.2 from lock file
+553 verbose stack Missing: @rollup/rollup-linux-loong64-musl@4.60.2 from lock file
+553 verbose stack Missing: @rollup/rollup-linux-ppc64-gnu@4.60.2 from lock file
+553 verbose stack Missing: @rollup/rollup-linux-ppc64-musl@4.60.2 from lock file
+553 verbose stack Missing: @rollup/rollup-linux-riscv64-gnu@4.60.2 from lock file
+553 verbose stack Missing: @rollup/rollup-linux-riscv64-musl@4.60.2 from lock file
+553 verbose stack Missing: @rollup/rollup-linux-s390x-gnu@4.60.2 from lock file
+553 verbose stack Missing: @rollup/rollup-linux-x64-musl@4.60.2 from lock file
+553 verbose stack Missing: @rollup/rollup-openbsd-x64@4.60.2 from lock file
+553 verbose stack Missing: @rollup/rollup-openharmony-arm64@4.60.2 from lock file
+553 verbose stack Missing: @rollup/rollup-win32-arm64-msvc@4.60.2 from lock file
+553 verbose stack Missing: @rollup/rollup-win32-ia32-msvc@4.60.2 from lock file
+553 verbose stack Missing: @rollup/rollup-win32-x64-gnu@4.60.2 from lock file
+553 verbose stack Missing: @rollup/rollup-win32-x64-msvc@4.60.2 from lock file
+553 verbose stack Missing: fsevents@2.3.3 from lock file
+553 verbose stack Missing: @img/sharp-darwin-arm64@0.34.5 from lock file
+553 verbose stack Missing: @img/sharp-darwin-x64@0.34.5 from lock file
+553 verbose stack Missing: @img/sharp-libvips-darwin-arm64@1.2.4 from lock file
+553 verbose stack Missing: @img/sharp-libvips-darwin-x64@1.2.4 from lock file
+553 verbose stack Missing: @img/sharp-libvips-linux-arm@1.2.4 from lock file
+553 verbose stack Missing: @img/sharp-libvips-linux-arm64@1.2.4 from lock file
+553 verbose stack Missing: @img/sharp-libvips-linux-ppc64@1.2.4 from lock file
+553 verbose stack Missing: @img/sharp-libvips-linux-riscv64@1.2.4 from lock file
+553 verbose stack Missing: @img/sharp-libvips-linux-s390x@1.2.4 from lock file
+553 verbose stack Missing: @img/sharp-libvips-linuxmusl-arm64@1.2.4 from lock file
+553 verbose stack Missing: @img/sharp-libvips-linuxmusl-x64@1.2.4 from lock file
+553 verbose stack Missing: @img/sharp-linux-arm@0.34.5 from lock file
+553 verbose stack Missing: @img/sharp-linux-arm64@0.34.5 from lock file
+553 verbose stack Missing: @img/sharp-linux-ppc64@0.34.5 from lock file
+553 verbose stack Missing: @img/sharp-linux-riscv64@0.34.5 from lock file
+553 verbose stack Missing: @img/sharp-linux-s390x@0.34.5 from lock file
+553 verbose stack Missing: @img/sharp-linuxmusl-arm64@0.34.5 from lock file
+553 verbose stack Missing: @img/sharp-linuxmusl-x64@0.34.5 from lock file
+553 verbose stack Missing: @img/sharp-wasm32@0.34.5 from lock file
+553 verbose stack Missing: @img/sharp-win32-arm64@0.34.5 from lock file
+553 verbose stack Missing: @img/sharp-win32-ia32@0.34.5 from lock file
+553 verbose stack Missing: @img/sharp-win32-x64@0.34.5 from lock file
+553 verbose stack Missing: @emnapi/runtime@1.10.0 from lock file
+553 verbose stack
+553 verbose stack Clean install a project
+553 verbose stack
+553 verbose stack Usage:
+553 verbose stack npm ci
+553 verbose stack
+553 verbose stack Options:
+553 verbose stack [--install-strategy <hoisted|nested|shallow|linked>] [--legacy-bundling]
+553 verbose stack [--global-style] [--omit <dev|optional|peer> [--omit <dev|optional|peer> ...]]
+553 verbose stack [--include <prod|dev|optional|peer> [--include <prod|dev|optional|peer> ...]]
+553 verbose stack [--strict-peer-deps] [--foreground-scripts] [--ignore-scripts] [--no-audit]
+553 verbose stack [--no-bin-links] [--no-fund] [--dry-run]
+553 verbose stack [-w|--workspace <workspace-name> [-w|--workspace <workspace-name> ...]]
+553 verbose stack [--workspaces] [--include-workspace-root] [--install-links]
+553 verbose stack
+553 verbose stack aliases: clean-install, ic, install-clean, isntall-clean
+553 verbose stack
+553 verbose stack Run "npm help ci" for more info
+553 verbose stack     at CI.usageError (C:\Program Files\nodejs\node_modules\npm\lib\base-cmd.js:111:26)
+553 verbose stack     at CI.exec (C:\Program Files\nodejs\node_modules\npm\lib\commands\ci.js:70:18)
+553 verbose stack     at async Npm.exec (C:\Program Files\nodejs\node_modules\npm\lib\npm.js:208:9)
+553 verbose stack     at async module.exports (C:\Program Files\nodejs\node_modules\npm\lib\cli\entry.js:67:5)
+554 error code EUSAGE
+555 error
+555 error `npm ci` can only install packages when your package.json and package-lock.json or npm-shrinkwrap.json are in sync. Please update your lock file with `npm install` before continuing.
+555 error
+555 error Missing: @parcel/watcher-android-arm64@ from lock file
+555 error Missing: @parcel/watcher-darwin-arm64@ from lock file
+555 error Missing: @parcel/watcher-darwin-x64@ from lock file
+555 error Missing: @parcel/watcher-freebsd-x64@ from lock file
+555 error Missing: @parcel/watcher-linux-arm-glibc@ from lock file
+555 error Missing: @parcel/watcher-linux-arm-musl@ from lock file
+555 error Missing: @parcel/watcher-linux-arm64-glibc@2.5.6 from lock file
+555 error Missing: @parcel/watcher-linux-arm64-musl@2.5.6 from lock file
+555 error Missing: @parcel/watcher-linux-x64-musl@2.5.6 from lock file
+555 error Missing: @parcel/watcher-win32-arm64@2.5.6 from lock file
+555 error Missing: @parcel/watcher-win32-ia32@2.5.6 from lock file
+555 error Missing: @parcel/watcher-win32-x64@2.5.6 from lock file
+555 error Missing: @tailwindcss/oxide-android-arm64@4.2.4 from lock file
+555 error Missing: @tailwindcss/oxide-darwin-arm64@4.2.4 from lock file
+555 error Missing: @tailwindcss/oxide-darwin-x64@4.2.4 from lock file
+555 error Missing: @tailwindcss/oxide-freebsd-x64@4.2.4 from lock file
+555 error Missing: @tailwindcss/oxide-linux-arm-gnueabihf@4.2.4 from lock file
+555 error Missing: @tailwindcss/oxide-linux-arm64-gnu@4.2.4 from lock file
+555 error Missing: @tailwindcss/oxide-linux-arm64-musl@4.2.4 from lock file
+555 error Missing: @tailwindcss/oxide-linux-x64-musl@4.2.4 from lock file
+555 error Missing: @tailwindcss/oxide-wasm32-wasi@4.2.4 from lock file
+555 error Missing: @tailwindcss/oxide-win32-arm64-msvc@4.2.4 from lock file
+555 error Missing: @tailwindcss/oxide-win32-x64-msvc@4.2.4 from lock file
+555 error Missing: @esbuild/aix-ppc64@0.27.3 from lock file
+555 error Missing: @esbuild/android-arm@0.27.3 from lock file
+555 error Missing: @esbuild/android-arm64@0.27.3 from lock file
+555 error Missing: @esbuild/android-x64@0.27.3 from lock file
+555 error Missing: @esbuild/darwin-arm64@0.27.3 from lock file
+555 error Missing: @esbuild/darwin-x64@0.27.3 from lock file
+555 error Missing: @esbuild/freebsd-arm64@0.27.3 from lock file
+555 error Missing: @esbuild/freebsd-x64@0.27.3 from lock file
+555 error Missing: @esbuild/linux-arm@0.27.3 from lock file
+555 error Missing: @esbuild/linux-arm64@0.27.3 from lock file
+555 error Missing: @esbuild/linux-ia32@0.27.3 from lock file
+555 error Missing: @esbuild/linux-loong64@0.27.3 from lock file
+555 error Missing: @esbuild/linux-mips64el@0.27.3 from lock file
+555 error Missing: @esbuild/linux-ppc64@0.27.3 from lock file
+555 error Missing: @esbuild/linux-riscv64@0.27.3 from lock file
+555 error Missing: @esbuild/linux-s390x@0.27.3 from lock file
+555 error Missing: @esbuild/netbsd-arm64@0.27.3 from lock file
+555 error Missing: @esbuild/netbsd-x64@0.27.3 from lock file
+555 error Missing: @esbuild/openbsd-arm64@0.27.3 from lock file
+555 error Missing: @esbuild/openbsd-x64@0.27.3 from lock file
+555 error Missing: @esbuild/openharmony-arm64@0.27.3 from lock file
+555 error Missing: @esbuild/sunos-x64@0.27.3 from lock file
+555 error Missing: @esbuild/win32-arm64@0.27.3 from lock file
+555 error Missing: @esbuild/win32-ia32@0.27.3 from lock file
+555 error Missing: @esbuild/win32-x64@0.27.3 from lock file
+555 error Missing: lightningcss-android-arm64@1.32.0 from lock file
+555 error Missing: lightningcss-darwin-arm64@1.32.0 from lock file
+555 error Missing: lightningcss-darwin-x64@1.32.0 from lock file
+555 error Missing: lightningcss-freebsd-x64@1.32.0 from lock file
+555 error Missing: lightningcss-linux-arm-gnueabihf@1.32.0 from lock file
+555 error Missing: lightningcss-linux-arm64-gnu@1.32.0 from lock file
+555 error Missing: lightningcss-linux-arm64-musl@1.32.0 from lock file
+555 error Missing: lightningcss-linux-x64-musl@1.32.0 from lock file
+555 error Missing: lightningcss-win32-arm64-msvc@1.32.0 from lock file
+555 error Missing: lightningcss-win32-x64-msvc@1.32.0 from lock file
+555 error Missing: @rollup/rollup-android-arm-eabi@4.60.2 from lock file
+555 error Missing: @rollup/rollup-android-arm64@4.60.2 from lock file
+555 error Missing: @rollup/rollup-darwin-arm64@4.60.2 from lock file
+555 error Missing: @rollup/rollup-darwin-x64@4.60.2 from lock file
+555 error Missing: @rollup/rollup-freebsd-arm64@4.60.2 from lock file
+555 error Missing: @rollup/rollup-freebsd-x64@4.60.2 from lock file
+555 error Missing: @rollup/rollup-linux-arm-gnueabihf@4.60.2 from lock file
+555 error Missing: @rollup/rollup-linux-arm-musleabihf@4.60.2 from lock file
+555 error Missing: @rollup/rollup-linux-arm64-gnu@4.60.2 from lock file
+555 error Missing: @rollup/rollup-linux-arm64-musl@4.60.2 from lock file
+555 error Missing: @rollup/rollup-linux-loong64-gnu@4.60.2 from lock file
+555 error Missing: @rollup/rollup-linux-loong64-musl@4.60.2 from lock file
+555 error Missing: @rollup/rollup-linux-ppc64-gnu@4.60.2 from lock file
+555 error Missing: @rollup/rollup-linux-ppc64-musl@4.60.2 from lock file
+555 error Missing: @rollup/rollup-linux-riscv64-gnu@4.60.2 from lock file
+555 error Missing: @rollup/rollup-linux-riscv64-musl@4.60.2 from lock file
+555 error Missing: @rollup/rollup-linux-s390x-gnu@4.60.2 from lock file
+555 error Missing: @rollup/rollup-linux-x64-musl@4.60.2 from lock file
+555 error Missing: @rollup/rollup-openbsd-x64@4.60.2 from lock file
+555 error Missing: @rollup/rollup-openharmony-arm64@4.60.2 from lock file
+555 error Missing: @rollup/rollup-win32-arm64-msvc@4.60.2 from lock file
+555 error Missing: @rollup/rollup-win32-ia32-msvc@4.60.2 from lock file
+555 error Missing: @rollup/rollup-win32-x64-gnu@4.60.2 from lock file
+555 error Missing: @rollup/rollup-win32-x64-msvc@4.60.2 from lock file
+555 error Missing: fsevents@2.3.3 from lock file
+555 error Missing: @img/sharp-darwin-arm64@0.34.5 from lock file
+555 error Missing: @img/sharp-darwin-x64@0.34.5 from lock file
+555 error Missing: @img/sharp-libvips-darwin-arm64@1.2.4 from lock file
+555 error Missing: @img/sharp-libvips-darwin-x64@1.2.4 from lock file
+555 error Missing: @img/sharp-libvips-linux-arm@1.2.4 from lock file
+555 error Missing: @img/sharp-libvips-linux-arm64@1.2.4 from lock file
+555 error Missing: @img/sharp-libvips-linux-ppc64@1.2.4 from lock file
+555 error Missing: @img/sharp-libvips-linux-riscv64@1.2.4 from lock file
+555 error Missing: @img/sharp-libvips-linux-s390x@1.2.4 from lock file
+555 error Missing: @img/sharp-libvips-linuxmusl-arm64@1.2.4 from lock file
+555 error Missing: @img/sharp-libvips-linuxmusl-x64@1.2.4 from lock file
+555 error Missing: @img/sharp-linux-arm@0.34.5 from lock file
+555 error Missing: @img/sharp-linux-arm64@0.34.5 from lock file
+555 error Missing: @img/sharp-linux-ppc64@0.34.5 from lock file
+555 error Missing: @img/sharp-linux-riscv64@0.34.5 from lock file
+555 error Missing: @img/sharp-linux-s390x@0.34.5 from lock file
+555 error Missing: @img/sharp-linuxmusl-arm64@0.34.5 from lock file
+555 error Missing: @img/sharp-linuxmusl-x64@0.34.5 from lock file
+555 error Missing: @img/sharp-wasm32@0.34.5 from lock file
+555 error Missing: @img/sharp-win32-arm64@0.34.5 from lock file
+555 error Missing: @img/sharp-win32-ia32@0.34.5 from lock file
+555 error Missing: @img/sharp-win32-x64@0.34.5 from lock file
+555 error Missing: @emnapi/runtime@1.10.0 from lock file
+555 error
+555 error Clean install a project
+555 error
+555 error Usage:
+555 error npm ci
+555 error
+555 error Options:
+555 error [--install-strategy <hoisted|nested|shallow|linked>] [--legacy-bundling]
+555 error [--global-style] [--omit <dev|optional|peer> [--omit <dev|optional|peer> ...]]
+555 error [--include <prod|dev|optional|peer> [--include <prod|dev|optional|peer> ...]]
+555 error [--strict-peer-deps] [--foreground-scripts] [--ignore-scripts] [--no-audit]
+555 error [--no-bin-links] [--no-fund] [--dry-run]
+555 error [-w|--workspace <workspace-name> [-w|--workspace <workspace-name> ...]]
+555 error [--workspaces] [--include-workspace-root] [--install-links]
+555 error
+555 error aliases: clean-install, ic, install-clean, isntall-clean
+555 error
+555 error Run "npm help ci" for more info
+556 verbose cwd C:\Users\Z\Documents\Codex\2026-05-04\files-mentioned-by-the-user-source\source
+557 verbose os Windows_NT 10.0.19045
+558 verbose node v24.11.1
+559 verbose npm  v11.6.2
+560 verbose exit 1
+561 verbose code 1
+562 error A complete log of this run can be found in: C:\Users\Z\Documents\Codex\2026-05-04\files-mentioned-by-the-user-source\source\.npm-cache\_logs\2026-05-04T20_08_32_748Z-debug-0.log
