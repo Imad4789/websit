@@ -9,7 +9,6 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
-    "homepages": "http://Imad4789.github.io/tetst",
     "@supabase/supabase-js": "^2.105.3",
     "@tailwindcss/vite": "^4.0.6",
     "@tanstack/react-router": "1.168.22",
